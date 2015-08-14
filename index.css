@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background: #CDCDCD;
+}
+
+header{
+    height: 50px;
+    background: black;
+}
+
+#form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+header label{
+    float: left;
+    width: 100px;
+    line-height: 50px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header input{
+    float: right;
+    width: 350px;
+    height: 24px;
+    margin-top: 12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input:focus{
+    outline-width: 0;
+}
+
+.todo{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.done{
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2{
+    position: relative;
+}
+
+span{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    width: 10px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    color: dimgray;
+    font-size: 14px;
+}
+
+ol,ul{
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    height: 32px;
+    line-height: 32px;
+    background: white;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 45px;
+    border-radius: 5px;
+}
+
+li input{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+li p{
+    margin: 0;
+}
+
+li p input{
+    top: 3px;
+    left: 40px;
+    width: 70%;
+    height: 20px;
+    line-height: 14px;
+    text-indent: 5px;
+    font-size: 14px;
+    border: none;
+}
+
+ul li{
+    opacity: 0.5;
+}
+
+li a{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 5px;
+    background: #cccccc;
+    cursor: pointer;
+}
+
+a:link,a:visited{
+    font-weight: bold;
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: dimgray;
+}
+
+.changeall{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#markall{
+    float: left;
+    margin-left: 5px;
+}
+
+#alltodo{
+    float: left;
+    margin-left: 117px;
+}
+
+#alldone{
+    float: left;
+    margin-left: 117px;
+}
+
+#clear{
+    float: right;
+    margin-right: 5px;
+}
+
+footer{
+    padding-top: 40px;
+    font-size: 14px;
+    text-align: center;
+}
