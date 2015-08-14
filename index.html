@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <form action="javascript:formaction()" id="form">
+            <label for="title">ToDoList</label>
+            <input type="text" id="title" placeholder="Add ToDo events" required="required" autocomplete="off" />
+        </form>
+    </header>
+    <div class="todo">
+        <h2>ToDo<span id="todocount"></span></h2>
+        <ol id="todolist"></ol>
+    </div>
+    <div class="done">
+        <h2>Done<span id="donecount"></span></h2>
+        <ul id="donelist"></ul>
+    </div>
+    <div class="changeall">
+        <a id="markall" href="javascript:markall()">Mark All</a>
+        <a id="alltodo" href="javascript:alltodo()">All ToDo</a>
+        <a id="alldone" href="javascript:alldone()">All Done</a>
+        <a id="clear" href="javascript:clear()">Clear</a>
+    </div>
+    <footer>Created by<br>
+        <a href="https://github.com/Gaara-Luo/">Fan Luo</a>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
